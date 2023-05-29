@@ -1,0 +1,24 @@
+/* tablet */
+@media(max-width:1000px){
+    section{
+        width: 50% !important;
+    }
+}
+/* mobile */
+@media(max-width:600px){
+    html{
+        font-size: 12px;
+    }
+    section{
+        width: 100% !important;
+    }
+
+    header .container-bottom{
+        flex-direction: column;
+        align-items: start;
+    }
+    header .container-bottom p{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
